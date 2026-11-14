@@ -47,5 +47,12 @@ namespace PaginaAprender
             tela.Show();
             this.Hide();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            TelaInicial.TelaInicial tela = new TelaInicial.TelaInicial();
+            tela.Show();
+            this.Hide();
+        }
     }
 }

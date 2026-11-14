@@ -29,38 +29,47 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.label27 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.panelV = new System.Windows.Forms.Panel();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label33 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.panelA = new System.Windows.Forms.Panel();
             this.button11 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.label19 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label18 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.button13 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.label20 = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label26 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
@@ -72,30 +81,21 @@
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            this.panelV.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.panelA.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            this.panelV.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panelA.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -114,6 +114,28 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(889, 506);
             this.panel1.TabIndex = 2;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = global::PaginaAprender.Properties.Resources.next__1_;
+            this.pictureBox9.Location = new System.Drawing.Point(777, 28);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(45, 51);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox9.TabIndex = 21;
+            this.pictureBox9.TabStop = false;
+            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = global::PaginaAprender.Properties.Resources.next;
+            this.pictureBox8.Location = new System.Drawing.Point(830, 27);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(45, 51);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 20;
+            this.pictureBox8.TabStop = false;
+            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
             // 
             // label27
             // 
@@ -135,6 +157,7 @@
             this.button5.TabIndex = 0;
             this.button5.Text = "Início";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // label6
             // 
@@ -163,6 +186,16 @@
             this.panelV.Name = "panelV";
             this.panelV.Size = new System.Drawing.Size(600, 408);
             this.panelV.TabIndex = 1;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::PaginaAprender.Properties.Resources.lightbulb1;
+            this.pictureBox7.Location = new System.Drawing.Point(32, 306);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(42, 67);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 19;
+            this.pictureBox7.TabStop = false;
             // 
             // panel4
             // 
@@ -217,6 +250,16 @@
             this.label28.TabIndex = 14;
             this.label28.Text = "Elas indicam orientações, obrigações ou restrições!";
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::PaginaAprender.Properties.Resources.Semáforo_Sorridente_Dando_Joinha_removebg_preview;
+            this.pictureBox2.Location = new System.Drawing.Point(475, 251);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(101, 140);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 8;
+            this.pictureBox2.TabStop = false;
+            // 
             // label11
             // 
             this.label11.AutoSize = true;
@@ -248,6 +291,16 @@
             this.label8.Size = new System.Drawing.Size(208, 22);
             this.label8.TabIndex = 3;
             this.label8.Text = "Placas de regularmentação";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::PaginaAprender.Properties.Resources.Placa_Amarela_de_Travessia_de_Pedestres_removebg_preview;
+            this.pictureBox1.Location = new System.Drawing.Point(32, 66);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(210, 219);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // label5
             // 
@@ -312,6 +365,16 @@
             this.label19.TabIndex = 9;
             this.label19.Text = "aguarde a parada total dos veículos";
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::PaginaAprender.Properties.Resources.Gemini_Generated_Image_wnruh4wnruh4wnru_removebg_preview;
+            this.pictureBox3.Location = new System.Drawing.Point(272, 280);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(304, 111);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 8;
+            this.pictureBox3.TabStop = false;
+            // 
             // label13
             // 
             this.label13.AutoSize = true;
@@ -365,6 +428,16 @@
             this.label17.Size = new System.Drawing.Size(376, 22);
             this.label17.TabIndex = 3;
             this.label17.Text = "Clique nas cores para aprender seus significados!";
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::PaginaAprender.Properties.Resources.traffic_light;
+            this.pictureBox4.Location = new System.Drawing.Point(32, 66);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(210, 281);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 0;
+            this.pictureBox4.TabStop = false;
             // 
             // label18
             // 
@@ -429,6 +502,16 @@
             this.label20.TabIndex = 9;
             this.label20.Text = "e seguir o caminho com segurança";
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::PaginaAprender.Properties.Resources.Gemini_Generated_Image_wnruh4wnruh4wnru_removebg_preview;
+            this.pictureBox5.Location = new System.Drawing.Point(272, 280);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(304, 111);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 8;
+            this.pictureBox5.TabStop = false;
+            // 
             // label21
             // 
             this.label21.AutoSize = true;
@@ -482,6 +565,16 @@
             this.label25.Size = new System.Drawing.Size(376, 22);
             this.label25.TabIndex = 3;
             this.label25.Text = "Clique nas cores para aprender seus significados!";
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::PaginaAprender.Properties.Resources.traffic_light;
+            this.pictureBox6.Location = new System.Drawing.Point(32, 66);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(210, 281);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 0;
+            this.pictureBox6.TabStop = false;
             // 
             // label26
             // 
@@ -622,98 +715,6 @@
             this.button1.Text = "   Semáforo";
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Image = global::PaginaAprender.Properties.Resources.next__1_;
-            this.pictureBox9.Location = new System.Drawing.Point(777, 28);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(45, 51);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 21;
-            this.pictureBox9.TabStop = false;
-            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = global::PaginaAprender.Properties.Resources.next;
-            this.pictureBox8.Location = new System.Drawing.Point(830, 27);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(45, 51);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 20;
-            this.pictureBox8.TabStop = false;
-            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::PaginaAprender.Properties.Resources.lightbulb1;
-            this.pictureBox7.Location = new System.Drawing.Point(32, 306);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(42, 67);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 19;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::PaginaAprender.Properties.Resources.Semáforo_Sorridente_Dando_Joinha_removebg_preview;
-            this.pictureBox2.Location = new System.Drawing.Point(475, 251);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(101, 140);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 8;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::PaginaAprender.Properties.Resources.Placa_Amarela_de_Travessia_de_Pedestres_removebg_preview;
-            this.pictureBox1.Location = new System.Drawing.Point(32, 66);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(210, 219);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::PaginaAprender.Properties.Resources.Gemini_Generated_Image_wnruh4wnruh4wnru_removebg_preview;
-            this.pictureBox3.Location = new System.Drawing.Point(272, 280);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(304, 111);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 8;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::PaginaAprender.Properties.Resources.traffic_light;
-            this.pictureBox4.Location = new System.Drawing.Point(32, 66);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(210, 281);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 0;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::PaginaAprender.Properties.Resources.Gemini_Generated_Image_wnruh4wnruh4wnru_removebg_preview;
-            this.pictureBox5.Location = new System.Drawing.Point(272, 280);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(304, 111);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 8;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::PaginaAprender.Properties.Resources.traffic_light;
-            this.pictureBox6.Location = new System.Drawing.Point(32, 66);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(210, 281);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 0;
-            this.pictureBox6.TabStop = false;
-            // 
             // pedestre
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -725,25 +726,25 @@
             this.Text = "pedestre";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panelV.ResumeLayout(false);
-            this.panelV.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            this.panelA.ResumeLayout(false);
-            this.panelA.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            this.panelV.ResumeLayout(false);
+            this.panelV.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panelA.ResumeLayout(false);
+            this.panelA.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }

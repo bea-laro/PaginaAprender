@@ -29,35 +29,56 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.label27 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.panelV = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.label10 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.label9 = new System.Windows.Forms.Label();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.label32 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.panelA = new System.Windows.Forms.Panel();
             this.button11 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.label19 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label18 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.button13 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.label20 = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label26 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
@@ -69,46 +90,25 @@
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.label12 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            this.panelV.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.panelA.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            this.panelV.SuspendLayout();
+            this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panelA.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -126,6 +126,16 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(889, 506);
             this.panel1.TabIndex = 5;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = global::PaginaAprender.Properties.Resources.next__1_;
+            this.pictureBox9.Location = new System.Drawing.Point(830, 28);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(45, 51);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox9.TabIndex = 21;
+            this.pictureBox9.TabStop = false;
             // 
             // label27
             // 
@@ -147,6 +157,7 @@
             this.button5.TabIndex = 0;
             this.button5.Text = "Início";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // label6
             // 
@@ -175,6 +186,137 @@
             this.panelV.Size = new System.Drawing.Size(600, 408);
             this.panelV.TabIndex = 1;
             // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(241)))), ((int)(((byte)(253)))));
+            this.panel6.Controls.Add(this.label10);
+            this.panel6.Controls.Add(this.pictureBox1);
+            this.panel6.Controls.Add(this.label11);
+            this.panel6.Controls.Add(this.label31);
+            this.panel6.Location = new System.Drawing.Point(54, 168);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(412, 83);
+            this.panel6.TabIndex = 24;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Segoe UI Variable Display", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.Black;
+            this.label10.Location = new System.Drawing.Point(99, 54);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(302, 22);
+            this.label10.TabIndex = 23;
+            this.label10.Text = "a um adulto ou funcionário identificado.";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::PaginaAprender.Properties.Resources.Gemini_Generated_Image_qgs454qgs454qgs4_removebg_preview;
+            this.pictureBox1.Location = new System.Drawing.Point(4, 7);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(83, 68);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 22;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Segoe UI Variable Text", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.Black;
+            this.label11.Location = new System.Drawing.Point(126, 10);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(160, 22);
+            this.label11.TabIndex = 19;
+            this.label11.Text = "E se eu me perder?";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Segoe UI Variable Display", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.ForeColor = System.Drawing.Color.Black;
+            this.label31.Location = new System.Drawing.Point(97, 33);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(297, 22);
+            this.label31.TabIndex = 20;
+            this.label31.Text = "Fique em um lugar seguro e peça ajuda";
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(241)))), ((int)(((byte)(253)))));
+            this.panel5.Controls.Add(this.label9);
+            this.panel5.Controls.Add(this.pictureBox8);
+            this.panel5.Controls.Add(this.label29);
+            this.panel5.Controls.Add(this.label30);
+            this.panel5.Location = new System.Drawing.Point(54, 79);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(412, 83);
+            this.panel5.TabIndex = 21;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Segoe UI Variable Display", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.Black;
+            this.label9.Location = new System.Drawing.Point(170, 54);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(72, 22);
+            this.label9.TabIndex = 23;
+            this.label9.Text = "seguras.";
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = global::PaginaAprender.Properties.Resources.WhatsApp_Image_2026_10_23_at_20_03_25_removebg_preview;
+            this.pictureBox8.Location = new System.Drawing.Point(4, 7);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(83, 68);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 22;
+            this.pictureBox8.TabStop = false;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Segoe UI Variable Text", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.ForeColor = System.Drawing.Color.Black;
+            this.label29.Location = new System.Drawing.Point(126, 10);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(197, 22);
+            this.label29.TabIndex = 19;
+            this.label29.Text = "Quem pode me ajudar?";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Segoe UI Variable Display", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.ForeColor = System.Drawing.Color.Black;
+            this.label30.Location = new System.Drawing.Point(98, 33);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(276, 22);
+            this.label30.TabIndex = 20;
+            this.label30.Text = "O policial ajuda a manter as pessoas";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Segoe UI Variable Text", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.DarkRed;
+            this.label12.Location = new System.Drawing.Point(24, 19);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(65, 44);
+            this.label12.TabIndex = 20;
+            this.label12.Text = "🚨";
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::PaginaAprender.Properties.Resources.WhatsApp_Image_2026_10_23_at_20_14_05_removebg_preview;
+            this.pictureBox7.Location = new System.Drawing.Point(35, 306);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(42, 67);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 19;
+            this.pictureBox7.TabStop = false;
+            // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(241)))), ((int)(((byte)(253)))));
@@ -187,6 +329,37 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(360, 84);
             this.panel4.TabIndex = 18;
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.Image = global::PaginaAprender.Properties.Resources.ambulance;
+            this.pictureBox11.Location = new System.Drawing.Point(191, 32);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(42, 40);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox11.TabIndex = 26;
+            this.pictureBox11.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Image = global::PaginaAprender.Properties.Resources.insurance;
+            this.pictureBox10.Location = new System.Drawing.Point(15, 32);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(42, 40);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox10.TabIndex = 25;
+            this.pictureBox10.TabStop = false;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Segoe UI Variable Text", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.ForeColor = System.Drawing.Color.Black;
+            this.label32.Location = new System.Drawing.Point(87, 5);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(190, 22);
+            this.label32.TabIndex = 24;
+            this.label32.Text = "Números importantes:";
             // 
             // label33
             // 
@@ -219,6 +392,16 @@
             this.label28.Size = new System.Drawing.Size(391, 22);
             this.label28.TabIndex = 14;
             this.label28.Text = "Elas indicam orientações, obrigações ou restrições!";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::PaginaAprender.Properties.Resources.Semáforo_Sorridente_Dando_Joinha_removebg_preview;
+            this.pictureBox2.Location = new System.Drawing.Point(475, 251);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(101, 140);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 8;
+            this.pictureBox2.TabStop = false;
             // 
             // label8
             // 
@@ -295,6 +478,16 @@
             this.label19.TabIndex = 9;
             this.label19.Text = "aguarde a parada total dos veículos";
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::PaginaAprender.Properties.Resources.Gemini_Generated_Image_wnruh4wnruh4wnru_removebg_preview;
+            this.pictureBox3.Location = new System.Drawing.Point(272, 280);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(304, 111);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 8;
+            this.pictureBox3.TabStop = false;
+            // 
             // label13
             // 
             this.label13.AutoSize = true;
@@ -348,6 +541,16 @@
             this.label17.Size = new System.Drawing.Size(376, 22);
             this.label17.TabIndex = 3;
             this.label17.Text = "Clique nas cores para aprender seus significados!";
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::PaginaAprender.Properties.Resources.traffic_light;
+            this.pictureBox4.Location = new System.Drawing.Point(32, 66);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(210, 281);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 0;
+            this.pictureBox4.TabStop = false;
             // 
             // label18
             // 
@@ -412,6 +615,16 @@
             this.label20.TabIndex = 9;
             this.label20.Text = "e seguir o caminho com segurança";
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::PaginaAprender.Properties.Resources.Gemini_Generated_Image_wnruh4wnruh4wnru_removebg_preview;
+            this.pictureBox5.Location = new System.Drawing.Point(272, 280);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(304, 111);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 8;
+            this.pictureBox5.TabStop = false;
+            // 
             // label21
             // 
             this.label21.AutoSize = true;
@@ -465,6 +678,16 @@
             this.label25.Size = new System.Drawing.Size(376, 22);
             this.label25.TabIndex = 3;
             this.label25.Text = "Clique nas cores para aprender seus significados!";
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::PaginaAprender.Properties.Resources.traffic_light;
+            this.pictureBox6.Location = new System.Drawing.Point(32, 66);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(210, 281);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 0;
+            this.pictureBox6.TabStop = false;
             // 
             // label26
             // 
@@ -608,228 +831,6 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Segoe UI Variable Text", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.DarkRed;
-            this.label12.Location = new System.Drawing.Point(24, 19);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(68, 46);
-            this.label12.TabIndex = 20;
-            this.label12.Text = "🚨";
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(241)))), ((int)(((byte)(253)))));
-            this.panel5.Controls.Add(this.label9);
-            this.panel5.Controls.Add(this.pictureBox8);
-            this.panel5.Controls.Add(this.label29);
-            this.panel5.Controls.Add(this.label30);
-            this.panel5.Location = new System.Drawing.Point(54, 79);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(412, 83);
-            this.panel5.TabIndex = 21;
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Segoe UI Variable Text", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.ForeColor = System.Drawing.Color.Black;
-            this.label29.Location = new System.Drawing.Point(126, 10);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(197, 22);
-            this.label29.TabIndex = 19;
-            this.label29.Text = "Quem pode me ajudar?";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Segoe UI Variable Display", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.ForeColor = System.Drawing.Color.Black;
-            this.label30.Location = new System.Drawing.Point(98, 33);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(276, 22);
-            this.label30.TabIndex = 20;
-            this.label30.Text = "O policial ajuda a manter as pessoas";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI Variable Display", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(170, 54);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(72, 22);
-            this.label9.TabIndex = 23;
-            this.label9.Text = "seguras.";
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(241)))), ((int)(((byte)(253)))));
-            this.panel6.Controls.Add(this.label10);
-            this.panel6.Controls.Add(this.pictureBox1);
-            this.panel6.Controls.Add(this.label11);
-            this.panel6.Controls.Add(this.label31);
-            this.panel6.Location = new System.Drawing.Point(54, 168);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(412, 83);
-            this.panel6.TabIndex = 24;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Segoe UI Variable Display", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(99, 54);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(302, 22);
-            this.label10.TabIndex = 23;
-            this.label10.Text = "a um adulto ou funcionário identificado.";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Segoe UI Variable Text", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.Black;
-            this.label11.Location = new System.Drawing.Point(126, 10);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(160, 22);
-            this.label11.TabIndex = 19;
-            this.label11.Text = "E se eu me perder?";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Segoe UI Variable Display", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.ForeColor = System.Drawing.Color.Black;
-            this.label31.Location = new System.Drawing.Point(97, 33);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(297, 22);
-            this.label31.TabIndex = 20;
-            this.label31.Text = "Fique em um lugar seguro e peça ajuda";
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Segoe UI Variable Text", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.ForeColor = System.Drawing.Color.Black;
-            this.label32.Location = new System.Drawing.Point(87, 5);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(190, 22);
-            this.label32.TabIndex = 24;
-            this.label32.Text = "Números importantes:";
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Image = global::PaginaAprender.Properties.Resources.next__1_;
-            this.pictureBox9.Location = new System.Drawing.Point(830, 28);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(45, 51);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 21;
-            this.pictureBox9.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::PaginaAprender.Properties.Resources.Gemini_Generated_Image_qgs454qgs454qgs4_removebg_preview;
-            this.pictureBox1.Location = new System.Drawing.Point(4, 7);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(83, 68);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 22;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = global::PaginaAprender.Properties.Resources.WhatsApp_Image_2026_10_23_at_20_03_25_removebg_preview;
-            this.pictureBox8.Location = new System.Drawing.Point(4, 7);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(83, 68);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 22;
-            this.pictureBox8.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::PaginaAprender.Properties.Resources.WhatsApp_Image_2026_10_23_at_20_14_05_removebg_preview;
-            this.pictureBox7.Location = new System.Drawing.Point(35, 306);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(42, 67);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 19;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.Image = global::PaginaAprender.Properties.Resources.ambulance;
-            this.pictureBox11.Location = new System.Drawing.Point(191, 32);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(42, 40);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox11.TabIndex = 26;
-            this.pictureBox11.TabStop = false;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Image = global::PaginaAprender.Properties.Resources.insurance;
-            this.pictureBox10.Location = new System.Drawing.Point(15, 32);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(42, 40);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox10.TabIndex = 25;
-            this.pictureBox10.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::PaginaAprender.Properties.Resources.Semáforo_Sorridente_Dando_Joinha_removebg_preview;
-            this.pictureBox2.Location = new System.Drawing.Point(475, 251);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(101, 140);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 8;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::PaginaAprender.Properties.Resources.Gemini_Generated_Image_wnruh4wnruh4wnru_removebg_preview;
-            this.pictureBox3.Location = new System.Drawing.Point(272, 280);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(304, 111);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 8;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::PaginaAprender.Properties.Resources.traffic_light;
-            this.pictureBox4.Location = new System.Drawing.Point(32, 66);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(210, 281);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 0;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::PaginaAprender.Properties.Resources.Gemini_Generated_Image_wnruh4wnruh4wnru_removebg_preview;
-            this.pictureBox5.Location = new System.Drawing.Point(272, 280);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(304, 111);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 8;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::PaginaAprender.Properties.Resources.traffic_light;
-            this.pictureBox6.Location = new System.Drawing.Point(32, 66);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(210, 281);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 0;
-            this.pictureBox6.TabStop = false;
-            // 
             // ajuda
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -841,31 +842,31 @@
             this.Text = "ajuda";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.panelV.ResumeLayout(false);
             this.panelV.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            this.panelA.ResumeLayout(false);
-            this.panelA.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panelA.ResumeLayout(false);
+            this.panelA.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
